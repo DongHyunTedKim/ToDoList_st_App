@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF13C6CE24B0655300869D76 /* circle_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13C6CD24B0655300869D76 /* circle_checked.png */; };
+		BFBD9BDC24A72A3200C6F828 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = BFBD9BDA24A72A3100C6F828 /* settings.png */; };
+		BFBD9BDD24A72A3200C6F828 /* ckech_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = BFBD9BDB24A72A3100C6F828 /* ckech_ok.png */; };
+		BFBD9BDF24A7325F00C6F828 /* circle_default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFBD9BDE24A7325F00C6F828 /* circle_default.png */; };
+		BFBD9BE124A7331700C6F828 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = BFBD9BE024A7331700C6F828 /* close.png */; };
+		BFBD9BE324A7443600C6F828 /* circle_pink.png in Resources */ = {isa = PBXBuildFile; fileRef = BFBD9BE224A7443600C6F828 /* circle_pink.png */; };
+		BFD17C0224B47C4D00FF95BF /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD17C0124B47C4D00FF95BF /* plus.png */; };
 		BFD40D7B24A70FB10050F81D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD40D7A24A70FB10050F81D /* AppDelegate.swift */; };
-		BFD40D7D24A70FB10050F81D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD40D7C24A70FB10050F81D /* ViewController.swift */; };
 		BFD40D8024A70FB10050F81D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD40D7E24A70FB10050F81D /* Main.storyboard */; };
 		BFD40D8224A70FB20050F81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD40D8124A70FB20050F81D /* Assets.xcassets */; };
 		BFD40D8524A70FB20050F81D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD40D8324A70FB20050F81D /* LaunchScreen.storyboard */; };
+		BFD40D8D24A7124C0050F81D /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD40D8C24A7124C0050F81D /* TodoListViewController.swift */; };
+		BFD40D8F24A712870050F81D /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD40D8E24A712870050F81D /* Todo.swift */; };
+		BFD40D9124A712B60050F81D /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD40D9024A712B60050F81D /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF13C6CD24B0655300869D76 /* circle_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_checked.png; sourceTree = "<group>"; };
+		BFBD9BDA24A72A3100C6F828 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		BFBD9BDB24A72A3100C6F828 /* ckech_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ckech_ok.png; sourceTree = "<group>"; };
+		BFBD9BDE24A7325F00C6F828 /* circle_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_default.png; sourceTree = "<group>"; };
+		BFBD9BE024A7331700C6F828 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		BFBD9BE224A7443600C6F828 /* circle_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_pink.png; sourceTree = "<group>"; };
+		BFD17C0124B47C4D00FF95BF /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		BFD40D7724A70FB00050F81D /* TDL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD40D7A24A70FB10050F81D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFD40D7C24A70FB10050F81D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFD40D7F24A70FB10050F81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFD40D8124A70FB20050F81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD40D8424A70FB20050F81D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFD40D8624A70FB20050F81D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD40D8C24A7124C0050F81D /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		BFD40D8E24A712870050F81D /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		BFD40D9024A712B60050F81D /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFBD9BD924A72A3100C6F828 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFBD9BDA24A72A3100C6F828 /* settings.png */,
+				BFBD9BDB24A72A3100C6F828 /* ckech_ok.png */,
+				BFBD9BDE24A7325F00C6F828 /* circle_default.png */,
+				BFBD9BE224A7443600C6F828 /* circle_pink.png */,
+				BF13C6CD24B0655300869D76 /* circle_checked.png */,
+				BFBD9BE024A7331700C6F828 /* close.png */,
+				BFD17C0124B47C4D00FF95BF /* plus.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BFD40D6E24A70FB00050F81D = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +87,14 @@
 			isa = PBXGroup;
 			children = (
 				BFD40D7A24A70FB10050F81D /* AppDelegate.swift */,
-				BFD40D7C24A70FB10050F81D /* ViewController.swift */,
 				BFD40D7E24A70FB10050F81D /* Main.storyboard */,
+				BFD40D8C24A7124C0050F81D /* TodoListViewController.swift */,
+				BFD40D8E24A712870050F81D /* Todo.swift */,
+				BFD40D9024A712B60050F81D /* Storage.swift */,
 				BFD40D8124A70FB20050F81D /* Assets.xcassets */,
 				BFD40D8324A70FB20050F81D /* LaunchScreen.storyboard */,
 				BFD40D8624A70FB20050F81D /* Info.plist */,
+				BFBD9BD924A72A3100C6F828 /* Resources */,
 			);
 			path = TDL;
 			sourceTree = "<group>";
@@ -122,9 +157,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBD9BDD24A72A3200C6F828 /* ckech_ok.png in Resources */,
+				BFD17C0224B47C4D00FF95BF /* plus.png in Resources */,
+				BFBD9BDC24A72A3200C6F828 /* settings.png in Resources */,
 				BFD40D8524A70FB20050F81D /* LaunchScreen.storyboard in Resources */,
+				BFBD9BDF24A7325F00C6F828 /* circle_default.png in Resources */,
+				BFBD9BE124A7331700C6F828 /* close.png in Resources */,
+				BFBD9BE324A7443600C6F828 /* circle_pink.png in Resources */,
 				BFD40D8224A70FB20050F81D /* Assets.xcassets in Resources */,
 				BFD40D8024A70FB10050F81D /* Main.storyboard in Resources */,
+				BF13C6CE24B0655300869D76 /* circle_checked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD40D7D24A70FB10050F81D /* ViewController.swift in Sources */,
+				BFD40D8D24A7124C0050F81D /* TodoListViewController.swift in Sources */,
 				BFD40D7B24A70FB10050F81D /* AppDelegate.swift in Sources */,
+				BFD40D8F24A712870050F81D /* Todo.swift in Sources */,
+				BFD40D9124A712B60050F81D /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ted.TDL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ted.TDL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
